@@ -1,0 +1,18 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body, #root { height: 100%; background: theme('colors.bg'); color: white; }
+.container { @apply mx-auto w-full max-w-6xl px-4; }
+
+.shine {
+  background: linear-gradient(90deg, rgba(255,255,255,0.2) 0%, #fff 50%, rgba(255,255,255,0.2) 100%);
+  background-size: 200% 100%;
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+  animation: shimmer 1.6s linear infinite;
+}
+@keyframes shimmer { 
+  0%{background-position:-200% 0} 
+  100%{background-position:200% 0} 
+}

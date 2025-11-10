@@ -18,7 +18,7 @@ export const projects = [
     category: 'Development' as Category,
     cover: '/covers/Blockchain Voting System.png',
     tags: ['Spring Boot','Web3','Ethereum','MySQL'],
-    repo: 'https://github.com/Sahancoder', // replace exact repo if different
+    repo: 'https://github.com/LedgerVote',
     demo: '',
     desc: 'Identity-verified ballots, one-vote rule, testnet-ready architecture.'
   },
@@ -28,7 +28,7 @@ export const projects = [
     category: 'Development' as Category,
     cover: '/covers/ESP32 LED Control.png',
     tags: ['ESP32','REST','MQTT','C'],
-    repo: 'https://github.com/Sahancoder', // replace exact repo
+    repo: 'https://github.com/Sahancoder/ESP32-based-LED-Control-System',
     demo: '',
     desc: 'Firmware + REST endpoints to control LEDs via Wi-Fi with simple dashboard.'
   },
@@ -50,7 +50,7 @@ export const projects = [
     category: 'ML' as Category,
     cover: '/covers/Karate-Jogai-Out-of-Bounds-Detector.png',
     tags: ['YOLOv8','CV','Edge'],
-    repo: 'https://github.com/Sahancoder', // replace exact repo
+    repo: 'https://github.com/Sahancoder/karate-out-detection',
     demo: '',
     desc: 'Boundary detection, mAP/FPS metrics, confusion matrix and edge notes.'
   },
@@ -60,7 +60,7 @@ export const projects = [
     category: 'ML' as Category,
     cover: '/covers/Face Recognition.png',
     tags: ['OpenCV','PCA','Python'],
-    repo: 'https://github.com/Sahancoder', // replace exact repo
+    repo: 'https://github.com/Sahancoder/Face-recognition-with-ML',
     demo: '',
     desc: 'Preprocessing, PCA model, per-class accuracy, real-time webcam demo.'
   },
@@ -94,8 +94,8 @@ export const projects = [
     category: 'Game Dev' as Category,
     cover: '/covers/URacing.png',
     tags: ['Unity','C#','Physics'],
-    repo: 'https://github.com/Sahancoder', // replace exact repo
-    demo: '',
+    repo: '',
+    demo: 'https://www.linkedin.com/posts/sahan-viranga-hettiarachchi-219104275_uracing-gamedev-srilanka-activity-7382336947203244032-VreB?utm_source=share&utm_medium=member_desktop',
     desc: 'Lap timing system, car physics tuning, and track checkpoints.'
   },
   {
@@ -104,7 +104,7 @@ export const projects = [
     category: 'Game Dev' as Category,
     cover: '/covers/3D Multiplayer Starter.png',
     tags: ['React Three Fiber','WebGL'],
-    repo: 'https://github.com/Sahancoder', // replace exact repo
+    repo: 'https://github.com/Sahancoder/RavanaX-Engine',
     demo: '',
     desc: 'Starter pack for 3D worlds; camera controls + basic networking hooks.'
   }

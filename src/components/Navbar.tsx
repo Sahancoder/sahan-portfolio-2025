@@ -20,9 +20,9 @@ export default function Navbar(){
 
   return (
     <header className="sticky top-0 z-20 backdrop-blur border-b border-white/5">
-      <nav className="container flex items-center justify-between h-14">
-        <a href="#home" className="flex items-center transition-transform duration-300 hover:scale-105">
-          <img src="/logo (2).png" alt="Logo" className="h-20 w-auto" />
+      <nav className="container flex items-center justify-between h-14 sm:h-16">
+        <a href="#home" className="flex items-center transition-transform duration-300 hover:scale-105 shrink-0">
+          <img src="/logo (2).png" alt="Logo" className="h-14 sm:h-16 md:h-20 w-auto" />
         </a>
         
         {/* Desktop Navigation */}

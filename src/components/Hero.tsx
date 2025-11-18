@@ -5,23 +5,23 @@ import { LINKS } from '../config/links'
 
 export default function Hero(){
   return (
-    <section id="home" className="container grid md:grid-cols-2 gap-8 pt-10 md:pt-20">
-      <div className="flex flex-col gap-6">
-        <p className="text-white/70">Hi, I am</p>
-        <h1 className="text-4xl sm:text-5xl font-heading leading-tight">
+    <section id="home" className="container grid md:grid-cols-2 gap-8 pt-6 sm:pt-10 md:pt-20">
+      <div className="flex flex-col gap-4 sm:gap-6">
+        <p className="text-sm sm:text-base text-white/70">Hi, I am</p>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-heading leading-tight">
           <span className="block font-semibold">Sahan Hettiarachchi</span>
           <span className="text-accent">
             <Typewriter words={['Full stack developer','Frontend Engineer','AI Enthusiast']} loop={0} cursor cursorStyle="|" typeSpeed={60} deleteSpeed={40} delaySpeed={1200}/>
           </span>
         </h1>
-        <p className="text-white/70 max-w-prose">
+        <p className="text-sm sm:text-base text-white/70 max-w-prose">
           I craft responsive, performant experiences—focused on clean design, accessibility, and measurable impact.
         </p>
-        <div className="flex gap-4">
-          <a href="#contact" className="rounded-md bg-accent px-5 py-3 font-medium">Hire Me</a>
-          <a href={LINKS.cv} download className="rounded-md border border-white/20 px-5 py-3 font-medium hover:border-white/40">Download CV</a>
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <a href="#contact" className="rounded-md bg-accent px-4 sm:px-5 py-2.5 sm:py-3 font-medium text-center text-sm sm:text-base">Hire Me</a>
+          <a href={LINKS.cv} download className="rounded-md border border-white/20 px-4 sm:px-5 py-2.5 sm:py-3 font-medium hover:border-white/40 text-center text-sm sm:text-base">Download CV</a>
         </div>
-        <div className="flex gap-3 pt-2">
+        <div className="flex flex-wrap gap-2 sm:gap-3 pt-2">
           <a aria-label="GitHub" className="p-2 rounded-full border border-white/20 hover:border-accent hover:bg-accent/10 transition-all duration-300" href={LINKS.github} target="_blank" rel="noopener noreferrer">
             <Github size={20}/>
           </a>
@@ -39,9 +39,9 @@ export default function Hero(){
           </a>
         </div>
       </div>
-      <div className="relative mx-auto max-w-sm">
+      <div className="relative mx-auto max-w-[280px] sm:max-w-sm order-first md:order-last">
         {/* PLACEHOLDER: Replace /pic.png with your actual portrait photo */}
-        <div className="relative rounded-full border-8 border-white/5 overflow-hidden aspect-square bg-card">
+        <div className="relative rounded-full border-4 sm:border-8 border-white/5 overflow-hidden aspect-square bg-card">
           <img 
             src="/pic.png" 
             alt="Sahan portrait" 

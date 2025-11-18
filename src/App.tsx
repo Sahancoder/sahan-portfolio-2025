@@ -68,8 +68,8 @@ export default function App(){
           </div>
         </section>
       </main>
-      <footer className="container py-10 text-white/50 text-sm">
-        © {new Date().getFullYear()} Sahan Hettiarachchi
+      <footer className="container py-10 text-white/50 text-sm text-center">
+        © {new Date().getFullYear()} Sahan Hettiarachchi. All rights reserved.
       </footer>
     </>
   )

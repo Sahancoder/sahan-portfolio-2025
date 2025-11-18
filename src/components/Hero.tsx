@@ -15,7 +15,7 @@ export default function Hero(){
           </span>
         </h1>
         <p className="text-sm sm:text-base text-white/70 max-w-prose">
-          I craft responsive, performant experiences—focused on clean design, accessibility, and measurable impact.
+          I craft responsive, performant experiences focused on clean design, accessibility, and measurable impact.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
           <a href="#contact" className="rounded-md bg-accent px-4 sm:px-5 py-2.5 sm:py-3 font-medium text-center text-sm sm:text-base">Hire Me</a>

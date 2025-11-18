@@ -8,6 +8,9 @@ export const skills: Skill[] = [
   { name: 'TypeScript', icon: 'logos:typescript-icon', level: 'Advanced' },
 
   // Backend & DB
+  { name: 'Java', icon: 'logos:java', level: 'Advanced' },
+  { name: 'Spring Boot', icon: 'logos:spring-icon', level: 'Advanced' },
+  { name: 'JavaScript', icon: 'logos:javascript', level: 'Advanced' },
   { name: 'Node.js', icon: 'logos:nodejs-icon', level: 'Intermediate' },
   { name: 'Supabase', icon: 'logos:supabase-icon', level: 'Intermediate' },
   { name: 'PostgreSQL', icon: 'logos:postgresql', level: 'Intermediate' },
